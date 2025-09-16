@@ -51,3 +51,8 @@ export interface UserModalProps {
   onClose: () => void;
   onSubmit: (post: PostData) => void;
 }
+
+export interface ButtonProps {
+  styles: string;
+  title: string
+}
